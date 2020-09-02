@@ -5,11 +5,6 @@ body {
     color: #fff;
     animation-name: background-fade;
     animation-duration: 5s;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    transition: 0.75;
     /* text-align: center; */
 }
 
@@ -17,7 +12,7 @@ strong {
     font-weight: normal;
 }
 
-s a,
+a,
 a:hover,
 a:focus {
     color: darkgoldenrod;
@@ -371,7 +366,7 @@ input[type="text"]::-webkit-input-placeholder {
         padding: 40px 0 40px 0;
     }
     .coming-soon .logo a {
-        height: 60px;
+        height: 39px;
     }
 }
 
