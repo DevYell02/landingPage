@@ -5,6 +5,11 @@ body {
     color: #fff;
     animation-name: background-fade;
     animation-duration: 5s;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: 0.75;
     /* text-align: center; */
 }
 
@@ -12,7 +17,7 @@ strong {
     font-weight: normal;
 }
 
-a,
+s a,
 a:hover,
 a:focus {
     color: darkgoldenrod;
